@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #777;
+    /* Space for nav bar */
+    padding-top: 70px; 
+}
+/* Navbar hash scroll */
+*[id]:before { 
+    display: block; 
+    content: " "; 
+    margin-top: -75px; 
+    height: 75px; 
+    visibility: hidden; 
+  }
+
+/****************************** 
+            Navbar
+******************************/
+
+.navbar {
+    background: #fff;
+    -webkit-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.25);
+} 
+.navbar .navbar-nav > li > a {
+    color: #777 ;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+.navbar .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #777 ;
+}
+a:focus, a:hover {
+    text-decoration: none;
+    color: rgb(52, 210, 199) !important;
+} 
+
+@media (min-width: 992px) {
+    .navbar {
+        height:80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        position: fixed !important;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+}
+
+/* End of navbar*/
+
+
+/****************************** 
+            Images
+******************************/
+
+.logo {
+    width: auto;
+    height: 50px;
+}
+.profile-img {
+    border-radius: 20px;
+    width: auto;
+    height: 100px;
+    margin: 80px auto 20px auto;
+    display: block;
+}
+.header-img-night, .header-img-scl, .header-img-tub {
+    background-size: cover;
+    height: 400px;
+}
+.header-img-night{
+    background-image: linear-gradient(0deg, rgba(0, 201, 255, 0.3),rgba(145, 250, 156, 0.3)), url(../images/header.png);
+    background-position: center;
+}
+.header-img-scl {
+    background-image: linear-gradient(0deg, rgba(0, 201, 255, 0.6),rgba(145, 250, 156, 0.6)), url(../images/oxford_circus.jpg);
+    background-position: right;   
+}
+
+.header-img-tub {
+    background-image: linear-gradient(0deg, rgba(0, 201, 255, 0.6),rgba(145, 250, 156, 0.6)), url(../images/dictionary_hostel.jpg);
+    background-position: center;   
+}
+.mail-icon { width: 40px; height: auto; padding: 0 0 18px 0;}
+
+.tubular-logo { max-width: 40% !important; }
+
+/* End of images */
+
+/****************************** 
+            Buttons
+******************************/
+
+.btnLinks {
+    padding: 10px;
+    border: none;
+}
+
+/* End of buttons */
+/****************************** 
+            Header
+******************************/
+
+.headerTitleText {
+    padding: 30px 3px 20px 3px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-size: 1.75em;
+    text-shadow: 2px 2px rgba(0, 201, 255, 0.7);
+}
+.headerTitleSCL {
+    padding: 160px 3px 160px 3px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+/* End of header */
+/****************************** 
+            About
+******************************/
+
+.about p {
+    font-size: 1.125em;
+    line-height: 1.875em;
+    padding: 0 30px 30px 30px;
+}
+.about, .about-scl h4 {
+    font-size: 1em;
+    color: #9B9B9B;
+    margin-bottom: 10px
+}
+.about-scl img { padding-bottom: 40px; max-width: 60%;}
+.about-scl h2 {
+    font-size: 1.6em;
+    margin: 20px 0px 5px 0;
+}
+.about-scl p { 
+    line-height: 1.75em;
+}
+
+/* Padding for the containers */
+.about, .portfolio, .about-scl { padding: 70px 20px 70px 20px; }
+.contact { padding: 70px 60px 70px 60px;}
+/* End of about */
+
+/****************************** 
+            Portfolio
+******************************/
+.portfolio-div {
+   padding: 20px 0 20px 0;
+}
+.portfolio-item {
+    text-align: center;
+    padding: 0 40px 0 40px;
+}
+.portfolio-item h2 {
+    font-size: 1.6em;
+    margin-bottom: 5px;
+    line-height: 1.875em;
+}
+.portfolio-item h3 {
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1.875em;
+}
+.portfolio-item h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #9B9B9B;
+    margin-bottom: 5px;
+    line-height: 1.875em;
+}
+.portfolio-item p {
+    margin-bottom: 30px
+}
+.portfolio-item img {
+    padding: 30px 10px 10px 10px;
+}
+
+/* End of portfolio */
+
+/****************************** 
+            Other
+******************************/
+  .greyBG {
+    background: #f6f6f6;
+  }
+  div h2 {
+    font-size: 1.6em;
+    padding: 10px 0 10px 0;
+    font-weight: 700;
+}
+/* End of other */
+
+/****************************** 
+            media queries
+******************************/
+/* large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+div .container .contact {
+    padding: 40px;
+}
+/* End of media queries */
