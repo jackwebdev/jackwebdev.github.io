@@ -189,6 +189,17 @@ a:focus, a:hover {
 .portfolio-item img {
     padding: 30px 10px 10px 10px;
 }
+.portfolio-item ul {
+    list-style-type: none;
+    margin-top: 15%;
+}
+.portfolio-item ul li a {
+    text-align: center;
+    color: #17a2b8;
+}
+.portfolio-item li {
+    padding-top: 10px;
+}
 
 /* End of portfolio */
 
