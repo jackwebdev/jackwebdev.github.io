@@ -41,11 +41,8 @@ a:focus, a:hover {
 } 
 
 @media (min-width: 992px) {
-    .navbar {
-        height:80px;
-    }
+    .navbar { height:80px; }
 }
-
 @media (min-width: 992px) {
     .navbar-expand-lg {
         position: fixed !important;
